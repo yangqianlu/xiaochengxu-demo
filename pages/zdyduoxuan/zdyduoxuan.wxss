@@ -1,0 +1,5 @@
+/* pages/zdyduoxuan/zdyduoxuan.wxss */
+.checkbox image{
+  width: 40rpx;
+  height: 40rpx;
+}

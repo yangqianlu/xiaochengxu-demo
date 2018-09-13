@@ -1,0 +1,11 @@
+<!--pages/zdyduoxuan/zdyduoxuan.wxml-->
+<text>自定义选框</text>
+<view>
+<checkbox-group bindchange="checkboxChange">
+  <label class="checkbox" wx:for="{{arrList}}" wx:key="{{index}}">
+    <checkbox value="{{item.name}}" checked="{{item.checked}}" hidden='hidden'/>{{item.value}}
+    <image src="{{item.checked?'../../images/icon_succ.png':'../../images/circle.png'}}"></image>
+    <text>{{item.name}}</text>
+  </label>
+</checkbox-group>
+</view>
